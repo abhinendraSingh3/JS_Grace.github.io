@@ -14,14 +14,37 @@ font-family: 'Montserrat', sans-serif;
 .nav-link:hover{
     color: grey;
 }
-.intro{
-    background-color: rgb(59, 59, 59);
+ .image{
     height:40vw;
     width: 100vw;
-}
-.pla{
+} 
+.left{
     background-color: yellow;
     height:40vw;
-    width:50vw
+    width:50vw;
+    float:left
 }
-
+ .box1{
+   height: 10vw;
+   width:20vw;
+   margin-top: 15vw;
+   margin-right: auto;
+   margin-left: 5vw;
+   display:flex;
+   background-color: red; 
+}
+.box2{
+   height: 10vw;
+   width:20vw;
+   margin-top: 15vw;
+   margin-right: 5vw;
+   margin-left: auto;
+   display:flex;
+   background-color: blue; 
+} 
+.right{
+    background-color: green;
+    height:40vw;
+    width:50vw;
+    float:right
+}
