@@ -2,6 +2,19 @@
     padding: 0px;
     margin:0px
 }
-.nav{
-    background-color: black;
+
+.navbar{
+background: black;
+justify-content: center;
+
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:grey
+}
+a:hover{
+    color:grey
 }
