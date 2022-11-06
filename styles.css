@@ -6,7 +6,16 @@
 .navbar{
 background: black;
 justify-content: center;
+font-family: 'Montserrat', sans-serif;
 }
-.nav{
-    color:white
+.nav-link{
+    color: white;
 }
+.nav-link:hover{
+    color: grey;
+}
+.navbar-brand{
+    color:aqua;
+    justify-content: left;
+}
+
