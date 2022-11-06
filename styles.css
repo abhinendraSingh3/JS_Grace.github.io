@@ -14,8 +14,14 @@ font-family: 'Montserrat', sans-serif;
 .nav-link:hover{
     color: grey;
 }
-.navbar-brand{
-    color:aqua;
-    justify-content: left;
+.intro{
+    background-color: rgb(59, 59, 59);
+    height:40vw;
+    width: 100vw;
+}
+.pla{
+    background-color: yellow;
+    height:40vw;
+    width:50vw
 }
 
