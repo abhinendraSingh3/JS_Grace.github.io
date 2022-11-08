@@ -14,13 +14,17 @@ font-family: 'Montserrat', sans-serif;
 .nav-link:hover{
     color: grey;
 }
+.image{
+  height: 57vh;
+}
  .image img:first-child{
     height:40vw;
     width: 100vw;
     position: relative;
+    z-index: -1;
 } 
  .box1{
-   height: 10vw;
+   height: 19vh;
    width:20vw;
    margin-top: -26vw;
    margin-right: auto;
@@ -32,9 +36,9 @@ font-family: 'Montserrat', sans-serif;
   color:rgb(253, 218, 218);
 }
 .box2{
-   height: 10vw;
+   height: 20vh;
    width:20vw;
-   margin-top: -37vw;
+   margin-top: -26vw;
    margin-right: 5vw;
    margin-left: auto;
    display:flex;
@@ -44,20 +48,18 @@ font-family: 'Montserrat', sans-serif;
   color:rgb(36, 36, 36)
 } 
 
-/* .bbn1{
-  display: inline-block;
-  margin-top: 5vw;
+ .bbn1{
+  display: flex;
+  margin-top: -5vw;
   margin-left: 38vw;
   margin-bottom: auto;
-} */
-.headerbutton{
-margin-top: -5rem;
 }
+
 
 .bbn2{
   display: inline-block;
-  margin-top: 7vw;
-  margin-left: 37vw;
+  margin-top: 6vw;
+  margin-left: 50vw;
   margin-bottom: auto;
   
 }
