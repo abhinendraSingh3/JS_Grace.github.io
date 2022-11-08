@@ -19,7 +19,7 @@ font-family: 'Montserrat', sans-serif;
     width: 100vw;
 } 
 .left{
-    background-color: yellow;
+    background:transparent;
     height:40vw;
     width:50vw;
     float:left
@@ -43,21 +43,39 @@ font-family: 'Montserrat', sans-serif;
    background-color: blue; 
 } 
 .right{
-    background-color: green;
+    background:transparent;
     height:40vw;
     width:50vw;
     float:right
 }
+.bbn1{
+  display: inline-block;
+  margin-top: 7vw;
+  margin-left: 38vw;
+  margin-bottom: auto;
+  size: 3vw;
+
+}
+.bbn2{
+  display: inline-block;
+  margin-top: 7vw;
+  margin-left: 1vw;
+  margin-bottom: auto;
+  text-underline-offset: 0px;
+  
+}
 .button {
     position: relative;
+    border-radius: 25rem;
     background-color: #04AA6D;
     border: none;
-    font-size: 28px;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
-    padding: 20px;
-    width: 200px;
+    padding: 1vw;
+    width: 11vw;
     text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;
