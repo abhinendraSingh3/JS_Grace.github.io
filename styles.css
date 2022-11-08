@@ -44,11 +44,14 @@ font-family: 'Montserrat', sans-serif;
   color:rgb(36, 36, 36)
 } 
 
-.bbn1{
+/* .bbn1{
   display: inline-block;
   margin-top: 5vw;
   margin-left: 38vw;
   margin-bottom: auto;
+} */
+.headerbutton{
+margin-top: -5rem;
 }
 
 .bbn2{
