@@ -15,7 +15,7 @@ font-family: 'Montserrat', sans-serif;
     color: grey;
 }
 .image{
-  height: 57vh;
+  height: 100%;
 }
  .image img:first-child{
     height:40vw;
@@ -39,64 +39,25 @@ font-family: 'Montserrat', sans-serif;
    height: 20vh;
    width:20vw;
    margin-top: -26vw;
-   margin-right: 5vw;
-   margin-left: auto;
+   margin-right: auto;
+   margin-left: 73vw;
    display:flex;
-   position: relative;
+   position: absolute;
    font-size: 4vw;
   font-family: 'Noto Sans', sans-serif;
   color:rgb(36, 36, 36)
 } 
-
- .bbn1{
-  display: flex;
+.btn1{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  margin-right: 8vw;
   margin-top: -5vw;
-  margin-left: 38vw;
-  margin-bottom: auto;
 }
-
-
-.bbn2{
-  display: inline-block;
-  margin-top: 6vw;
-  margin-left: 50vw;
-  margin-bottom: auto;
-  
+.btn2{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  margin-right: 8vw;
+  margin-top: -5vw;
 }
-.button {
-    position: relative;
-    border-radius: 25rem;
-    background-color: #04AA6D;
-    border: none;
-    font-size: 2vw;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
-    padding: 1vw;
-    width: 11vw;
-    text-align: center;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  
-  .button:after {
-    content: "";
-    background: #90EE90;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px!important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-  }
-  
-  .button:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
