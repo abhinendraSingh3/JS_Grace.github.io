@@ -8,7 +8,7 @@ body{
 }
 
 .navbar{
-background: black;
+background:rgb(20,21,23);
 justify-content: center;
 font-family: 'Montserrat', sans-serif;
 }
@@ -69,9 +69,27 @@ font-family: 'Montserrat', sans-serif;
   font-size: 2vw;
   
 }
-.abt{
+#about{
   display: flex;
-  height: 8vh;
+  height: 71vh;
   width: 100vw;
-  background-color: red;
+}
+.desc{
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-left: 27vw;
+  margin-right: auto;
+}
+#about img:first-child{
+  width: 24vw;
+  height: 19vh;
+  margin-top: 4vh;
+  margin-bottom: auto;
+  margin-left: 8vw;
+}
+.title{
+  font-size: 4vw;
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(253, 218, 218)
 }
