@@ -21,10 +21,10 @@ font-family: 'Montserrat', sans-serif;
     color: grey;
 }
 .image{
-  height: 43vw;
+  height: 48vw;
 }
  .image img:first-child{
-    height:43vw;
+    height:39vw;
     width: 100vw;
     position: relative;
     z-index: -1;
@@ -64,6 +64,7 @@ font-family: 'Montserrat', sans-serif;
   margin-right:2vw;
   margin-left:auto;
   font-size: 2vw;
+  border-radius: 9vw;
 }
 #btn2{
   margin-left:2vw;
@@ -73,7 +74,7 @@ font-family: 'Montserrat', sans-serif;
 }
 #about{
   display: flex;
-  height: 71vh;
+  height: 45vh;
   width: 100vw;
 }
 .desc{
