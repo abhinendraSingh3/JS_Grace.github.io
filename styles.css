@@ -1,6 +1,10 @@
 *{
     padding: 0px;
-    margin:0px
+    margin:0px; 
+}
+body{
+  background-image: url(neuron.jpg);
+  background-repeat: repeat-x;
 }
 
 .navbar{
@@ -18,14 +22,15 @@ font-family: 'Montserrat', sans-serif;
   height: 100%;
 }
  .image img:first-child{
-    height:40vw;
+    height:43vw;
     width: 100vw;
     position: relative;
     z-index: -1;
+    
 } 
  .box1{
-   height: 19vh;
-   width:20vw;
+   height: 6vh;
+   width:22vw;
    margin-top: -26vw;
    margin-right: auto;
    margin-left: 5vw;
@@ -36,7 +41,7 @@ font-family: 'Montserrat', sans-serif;
   color:rgb(253, 218, 218);
 }
 .box2{
-   height: 20vh;
+   height: 7vh;
    width:20vw;
    margin-top: -26vw;
    margin-right: auto;
@@ -47,17 +52,26 @@ font-family: 'Montserrat', sans-serif;
   font-family: 'Noto Sans', sans-serif;
   color:rgb(36, 36, 36)
 } 
-.btn1{
+.container{
   display:flex;
-  align-content: center;
   justify-content: center;
-  margin-right: 8vw;
-  margin-top: -5vw;
+  margin-top: -4vw;
+  margin-bottom: auto;
 }
-.btn2{
-  display:flex;
-  align-content: center;
-  justify-content: center;
-  margin-right: 8vw;
-  margin-top: -5vw;
+#btn1{
+  margin-right:2vw;
+  margin-left:auto;
+  font-size: 2vw;
+}
+#btn2{
+  margin-left:2vw;
+  margin-right:auto;
+  font-size: 2vw;
+  
+}
+.abt{
+  display: flex;
+  height: 8vh;
+  width: 100vw;
+  background-color: red;
 }
