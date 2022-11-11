@@ -92,12 +92,13 @@ font-family: 'Montserrat', sans-serif;
 }
 .title{
   font-size: 4vw;
+  margin-top:5vw;
   font-family: 'Montserrat', sans-serif;
   color:rgb(253, 218, 218)
 }
 .Intro{
-  margin-bottom: 1vw;
+  margin-bottom: 27vw;
 }
 .container2{
-
+margin-top:-48vw
 }
