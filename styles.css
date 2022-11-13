@@ -90,7 +90,7 @@ font-family: 'Montserrat', sans-serif;
 .desc{
   display: grid;
   align-items: center;
-  margin-left: 1vw;
+  margin-left: -3vw;
 }
 .md{
   display: flex;
@@ -102,28 +102,26 @@ font-family: 'Montserrat', sans-serif;
   max-height:25vw;
   width: auto;
   height: auto;
-  margin-left: 11vw;
+  margin-left: 9vw;
   margin-right: 9vw;
-  margin-top: 4vw;
+  margin-top: 9vw;
 }
 .title p{
   font-size: 4vw;
-  margin-top:-2vw;
-  margin-left:0vw;
   font-family: 'Montserrat', sans-serif;
-  
+  margin:auto auto 1vw 0vw;
   color:rgb(253, 218, 218)
 }
 .Intro{
-  margin-bottom: 29vw;
+  margin-bottom: 0vw;
   color: white;
   margin-right: 12vw;
-  margin-top: 1vw;
+  margin-top: -13vw;
   font-size:12px;
   font-family: 'Montserrat', sans-serif;
 }
 .container2{
-margin-top:-48vw
+margin-top:-17vw
 }
 
 
