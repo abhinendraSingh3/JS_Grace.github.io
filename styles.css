@@ -88,9 +88,10 @@ font-family: 'Montserrat', sans-serif;
   width: 100vw;
 }
 .desc{
-  display: grid;
-  align-items: center;
+  display: flex;
+  flex-direction: column ;
   margin-left: -3vw;
+  margin-top: 6vw;
 }
 .md{
   display: flex;
@@ -104,24 +105,29 @@ font-family: 'Montserrat', sans-serif;
   height: auto;
   margin-left: 9vw;
   margin-right: 9vw;
-  margin-top: 9vw;
+  margin-top: 7vw;
 }
 .title p{
   font-size: 4vw;
   font-family: 'Montserrat', sans-serif;
-  margin:auto auto 1vw 0vw;
+  margin:auto auto 0vw 0vw;
   color:rgb(253, 218, 218)
 }
 .Intro{
   margin-bottom: 0vw;
   color: white;
   margin-right: 12vw;
-  margin-top: -13vw;
+  margin-top: 1vw;
   font-size:12px;
   font-family: 'Montserrat', sans-serif;
 }
 .container2{
-margin-top:-17vw
+margin:3vw 0vw 0vw 0vw;
+}
+.edu{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
 
@@ -172,7 +178,7 @@ margin-top:-17vw
 }
 @media(max-width:768px){
   .title{
-    margin-top: -5vw;
+    margin-top: 1vw;
   }
 }
 @media(max-width:768px){
@@ -182,7 +188,8 @@ margin-top:-17vw
 }
 @media(max-width:768px){
   .md{
-    margin-top: 2vw;
+    margin-top: 8vw;
+    height:30vh;
   }
 }
 @media(max-width:768px){
@@ -193,11 +200,16 @@ margin-top:-17vw
 }
 @media(max-width:768px){
   #about img:first-child{
-    margin:1vw 3vw 0vw 13vw ;
+    margin:5vw 3vw 0vw 13vw ;
   }
 }
 @media(max-width:768px){
   .title p{
-    margin-top: 0vw;
+    margin-top: 1vw;
+  }
+}
+@media(max-width:768px){
+  .desc{
+    margin
   }
 }
