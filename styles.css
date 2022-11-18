@@ -15,7 +15,7 @@ justify-content: center;
 font-family: 'Montserrat', sans-serif;
 }
 .nav-item{
-  font-size: 1.8vw;
+  font-size: 1.6vw;
 }
 @media(max-width:512px){
   .nav-link{
@@ -151,19 +151,75 @@ margin:3vw 0vw 0vw 14vw;
 .binfo{
   display:flex;
   flex-direction: column;
-  justify-content: inherit;
+  justify-content: space-evenly;
   width:60vw;
 }
 .bimg{
-  margin:14vw auto auto 14vw;
+  margin:12vw auto auto 8vw;
 }
-.bEducation h4{
+.bEducation{
+  display: flex;
+  margin-left: -8vw;
 
 }
-.bBachel{
+.bEducation img:first-child{
+  margin-left: 28vw;
+}
+.bEducation p{
+  font-size: 4vw;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin:auto auto 0vw 1vw;
+  color:rgb(253, 218, 218)
+}
+.bcollegeN p{
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin:-5vw auto 0vw 8vw;
+  color:rgb(253, 218, 218);
+  width:57vw;
+}
+.bacdes{
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin:auto auto 0vw 0vw;
+  color:rgb(253, 218, 218)
+}
+.bBachel img:first-child{
+margin:-5.2vw 0vw 0vw 10vw;
+width: 4vw;
+}
+.bacdes p{
+  margin: 0vw 0vw 0vw 13vw;
+}
+.bschool{
 
 }
+.bschoolN p{
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin:-5vw auto 0vw 8vw;
+  color:rgb(253, 218, 218);
+  width:57vw;
+}
+.schdes{
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin:auto auto 0vw 0vw;
+  color:rgb(253, 218, 218)
+}
 
+.schdes p{
+  margin: 0vw 0vw 0vw 13vw;
+}
+.bschool img:first-child{
+  margin:-5vw 0vw 0vw 17vw;
+  width:3vw
+}
 
 
 
