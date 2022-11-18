@@ -149,7 +149,7 @@ margin:3vw 0vw 0vw 14vw;
 .binfo{
   display:flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   width:60vw;
 }
 .bimg{
@@ -158,28 +158,29 @@ margin:3vw 0vw 0vw 14vw;
 .bEducation{
   display: flex;
   margin-left: -8vw;
+  margin-bottom: 16vw;
 
 }
 .bEducation img:first-child{
-  margin-left: 28vw;
+  margin-left: 27vw;
 }
 .bEducation p{
-  font-size: 4vw;
+  font-size: 60px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   margin:auto auto 0vw 1vw;
   color:rgb(253, 218, 218)
 }
 .bcollegeN p{
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin:-5vw auto 0vw 8vw;
+  margin:-13vw auto 0vw 8vw;
   color:rgb(253, 218, 218);
   width:57vw;
 }
 .bacdes{
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   margin:auto auto 0vw 0vw;
@@ -193,18 +194,19 @@ width: 4vw;
   margin: 0vw 0vw 0vw 13vw;
 }
 .bschool{
+  margin-top:3vw;
 
 }
 .bschoolN p{
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin:-5vw auto 0vw 8vw;
+  margin:-1vw auto 0vw 8vw;
   color:rgb(253, 218, 218);
   width:57vw;
 }
 .schdes{
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   margin:auto auto 0vw 0vw;
@@ -215,7 +217,7 @@ width: 4vw;
   margin: 0vw 0vw 0vw 13vw;
 }
 .bschool img:first-child{
-  margin:-5vw 0vw 0vw 17vw;
+  margin:-5vw 0vw 0vw 8vw;
   width:3vw
 }
 
