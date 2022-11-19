@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap')
 *{
     padding: 0px;
     margin:0px; 
@@ -162,17 +163,17 @@ margin:3vw 0vw 0vw 14vw;
 
 }
 .bEducation img:first-child{
-  margin-left: 27vw;
+  margin:0vw 28vw 0vw 28vw;
 }
 .bEducation p{
   font-size: 60px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin:auto auto 0vw 1vw;
+  margin:auto auto 0vw -27vw;
   color:rgb(253, 218, 218)
 }
 .bcollegeN p{
-  font-size: 30px;
+  font-size: 2rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   margin:-13vw auto 0vw 8vw;
@@ -198,10 +199,10 @@ width: 4vw;
 
 }
 .bschoolN p{
-  font-size: 30px;
+  font-size: 2rem;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin:-1vw auto 0vw 8vw;
+  margin:-1rem auto auto 8vw;
   color:rgb(253, 218, 218);
   width:57vw;
 }
@@ -220,6 +221,8 @@ width: 4vw;
   margin:-5vw 0vw 0vw 8vw;
   width:3vw
 }
+
+
 
 
 
