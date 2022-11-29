@@ -151,7 +151,7 @@ margin:3vw 0vw 0vw 19vw;
 }
 .bimg img{
   display:inline-block;
-  max-width:350px;
+  max-width:437px;
   max-height:25vw;
   margin-top: -5vw;
 }
@@ -172,6 +172,7 @@ margin:3vw 0vw 0vw 19vw;
 }
 .bEducation img:first-child{
   margin:0vw 28vw 0vw 28vw;
+  width:6vw;
 }
 .bEducation p{
   font-size: 6vw;
@@ -354,13 +355,14 @@ width: 4vw;
     }
     .bEducation img:first-child{
           margin:0vw 28vw 0vw 28vw;
+          width:6vw
     }
 
     .bEducation p{
       font-size: 8vw;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      margin:auto auto 0vw -27vw;
+      margin:auto auto 0vw -26vw;
       color:rgb(253, 218, 218)
     }
 
