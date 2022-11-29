@@ -166,7 +166,7 @@ margin:3vw 0vw 0vw 19vw;
 }
 .bEducation{
   display: flex;
-  margin-left: -8vw;
+  margin-left: -12vw;
   margin-bottom: 16vw;
 
 }
@@ -174,7 +174,7 @@ margin:3vw 0vw 0vw 19vw;
   margin:0vw 28vw 0vw 28vw;
 }
 .bEducation p{
-  font-size: 85px;
+  font-size: 6vw;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   margin:auto auto 0vw -27vw;
