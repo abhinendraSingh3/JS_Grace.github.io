@@ -140,7 +140,7 @@ margin:3vw 0vw 0vw 19vw;
 }
 #education{
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   color: white;
   justify-content: center;
@@ -268,7 +268,7 @@ width: 4vw;
   }
 #education{
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     color: white;
     justify-content: center;
@@ -325,7 +325,7 @@ width: 4vw;
 
     #education{
       display: flex;
-      height: 100vh;
+      height: 100%;
       width: 100vw;
       color: white;
       justify-content: center;
@@ -621,7 +621,7 @@ margin-top: 0vw;
   }
   #education{
     display: flex;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     color: white;
     justify-content: center;
