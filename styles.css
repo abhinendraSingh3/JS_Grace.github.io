@@ -522,12 +522,12 @@ width: 4vw;
     }
 
     .bcollegeN p{
-      font-size: 4vw;
+      font-size: 5vw;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      margin:0vw auto 0vw 0vw;
+      margin:0vw auto 0vw 4vw;
       color:rgb(253, 218, 218);
-      width:100vw;
+      width:93vw;
     }
     .bcollegeN{
       display: flex;
@@ -535,7 +535,7 @@ width: 4vw;
     }
 
     .bacdes{
-      font-size: 2.5vw;
+      font-size: 3.5vw;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
       margin:2vw auto 0vw 0vw;
@@ -549,10 +549,10 @@ width: 4vw;
     
     }
     .bschoolN p{
-      font-size: 4vw;
+      font-size: 5vw;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      margin:-1rem auto auto 0vw;
+      margin:-1rem auto auto -3vw;
       color:rgb(253, 218, 218);
       width:100vw;
     }
@@ -560,15 +560,15 @@ width: 4vw;
       margin-top: 4vw;
     }
     .schdes{
-      font-size: 2.5vw;
+      font-size: 3.5vw;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      margin:3vw auto 0vw 0vw;
+      margin:3vw auto 0vw -6vw;
       color:rgb(253, 218, 218)
     }
     
     .schdes p{
-      margin: 2vw 0vw 0vw 0vw;
+      margin: -1vw 0vw 0vw 0vw;
     }
 
 }
@@ -664,12 +664,12 @@ margin-top: 0vw;
   }
 
   .bcollegeN p{
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin:0vw auto 0vw 0vw;
+    margin:0vw auto 0vw 4vw;
     color:rgb(253, 218, 218);
-    width:100vw;
+    width:95vw;
   }
   .bcollegeN{
     display: flex;
@@ -677,7 +677,7 @@ margin-top: 0vw;
   }
 
   .bacdes{
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin:2vw auto 0vw 0vw;
@@ -691,10 +691,10 @@ margin-top: 0vw;
   
   }
   .bschoolN p{
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin:-1rem auto auto 0vw;
+    margin:-1rem auto auto -3vw;
     color:rgb(253, 218, 218);
     width:100vw;
   }
@@ -702,10 +702,10 @@ margin-top: 0vw;
     margin-top: 4vw;
   }
   .schdes{
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin:3vw auto 0vw 0vw;
+    margin:3vw auto 0vw -3vw;
     color:rgb(253, 218, 218)
   }
   
