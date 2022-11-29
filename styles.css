@@ -475,6 +475,99 @@ width: 4vw;
       margin-left: -1vw;
       margin-top: 12vw;
     }
+    #education{
+      display: flex;
+      height: 100%;
+      width: 100vw;
+      color: white;
+      justify-content: center;
+    }
+    .bimg{
+      margin:0vw 0vw 0vw 0vw;
+    }
+    .bimg img{
+      display:inline-block;
+      max-width:261px;
+      max-height:36vw;
+      margin-top: 5vw;
+      margin-right: 0vw;
+      margin-left:-66vw ; 
+    }
+      .binfo{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100vw;
+        margin-top: 51vw;
+    }
+    .bEducation{
+          display: flex;
+          margin-left: -8vw;
+          margin-bottom: 5vw;
+        
+    }
+    .bEducation img:first-child{
+          margin:0vw 28vw 0vw 28vw;
+          width:6vw
+    }
+
+    .bEducation p{
+      font-size: 8vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:auto auto 0vw -26vw;
+      color:rgb(253, 218, 218)
+    }
+
+    .bcollegeN p{
+      font-size: 4vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:0vw auto 0vw 0vw;
+      color:rgb(253, 218, 218);
+      width:100vw;
+    }
+    .bcollegeN{
+      display: flex;
+      justify-content: center;
+    }
+
+    .bacdes{
+      font-size: 2.5vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:2vw auto 0vw 0vw;
+      color:rgb(253, 218, 218)
+    }
+    .bacdes p{
+      margin: auto auto auto auto;
+    }
+    .bschool{
+      margin-top:3vw;
+    
+    }
+    .bschoolN p{
+      font-size: 4vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:-1rem auto auto 0vw;
+      color:rgb(253, 218, 218);
+      width:100vw;
+    }
+    .bschoolN{
+      margin-top: 4vw;
+    }
+    .schdes{
+      font-size: 2.5vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:3vw auto 0vw 0vw;
+      color:rgb(253, 218, 218)
+    }
+    
+    .schdes p{
+      margin: 2vw 0vw 0vw 0vw;
+    }
 
 }
 
@@ -522,6 +615,99 @@ margin-top: 0vw;
   text-align: center;
   font-size: 7vw;
   margin-left: 1vw;
+  }
+  #education{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    color: white;
+    justify-content: center;
+  }
+  .bimg{
+    margin:0vw 0vw 0vw 0vw;
+  }
+  .bimg img{
+    display:inline-block;
+    max-width:261px;
+    max-height:36vw;
+    margin-top: 5vw;
+    margin-right: 0vw;
+    margin-left:-66vw ; 
+  }
+    .binfo{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      width:100vw;
+      margin-top: 51vw;
+  }
+  .bEducation{
+        display: flex;
+        margin-left: -8vw;
+        margin-bottom: 5vw;
+      
+  }
+  .bEducation img:first-child{
+        margin:0vw 28vw 0vw 28vw;
+        width:6vw
+  }
+
+  .bEducation p{
+    font-size: 8vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin:auto auto 0vw -26vw;
+    color:rgb(253, 218, 218)
+  }
+
+  .bcollegeN p{
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin:0vw auto 0vw 0vw;
+    color:rgb(253, 218, 218);
+    width:100vw;
+  }
+  .bcollegeN{
+    display: flex;
+    justify-content: center;
+  }
+
+  .bacdes{
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin:2vw auto 0vw 0vw;
+    color:rgb(253, 218, 218)
+  }
+  .bacdes p{
+    margin: auto auto auto auto;
+  }
+  .bschool{
+    margin-top:3vw;
+  
+  }
+  .bschoolN p{
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin:-1rem auto auto 0vw;
+    color:rgb(253, 218, 218);
+    width:100vw;
+  }
+  .bschoolN{
+    margin-top: 4vw;
+  }
+  .schdes{
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin:3vw auto 0vw 0vw;
+    color:rgb(253, 218, 218)
+  }
+  
+  .schdes p{
+    margin: 2vw 0vw 0vw 0vw;
   }
 }
 
