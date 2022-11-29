@@ -3,6 +3,12 @@
     padding: 0px;
     margin:0px; 
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body{
   background-color:rgb(20,21,23);
 }
@@ -88,27 +94,27 @@ font-family: 'Montserrat', sans-serif;
 }
 #about{
   display: flex;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 .desc{
   display: flex;
   flex-direction: column ;
-  margin-left: -1vw;
+  margin-left: -3vw;
   margin-top: 9vw;
 }
 .md{
   margin-top: 9vw;
   height:auto;
-  margin-left: 15vw;
+  margin-left: 19vw;
 }
 #about img:first-child{
   display:inline-block;
-  max-width:350px;
+  max-width:426px;
   max-height:25vw;
   width: auto;
   height: auto;
-  margin-left: 0vw;
+  margin-left: -9vw;
   margin-right: 4vw;
   margin-top: 2vw;
 }
@@ -124,12 +130,13 @@ font-family: 'Montserrat', sans-serif;
   color: white;
   margin-right: 12vw;
   margin-top: 1vw;
-  font-size:18px;
+  font-size:1.5vw;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  width:51vw
 }
 .container2{
-margin:3vw 0vw 0vw 14vw;
+margin:3vw 0vw 0vw 19vw;
 }
 #education{
   display: flex;
@@ -137,6 +144,7 @@ margin:3vw 0vw 0vw 14vw;
   width: 100vw;
   color: white;
   justify-content: center;
+  margin-top:8vw;
 }
 .bschool{
   float:right ;
@@ -166,25 +174,25 @@ margin:3vw 0vw 0vw 14vw;
   margin:0vw 28vw 0vw 28vw;
 }
 .bEducation p{
-  font-size: 60px;
+  font-size: 85px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   margin:auto auto 0vw -27vw;
   color:rgb(253, 218, 218)
 }
 .bcollegeN p{
-  font-size: 2rem;
+  font-size: 2.1vw;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin:-13vw auto 0vw 8vw;
+  margin:-13vw auto 0vw 18vw;
   color:rgb(253, 218, 218);
-  width:57vw;
+  width:41vw;
 }
 .bacdes{
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin:auto auto 0vw 0vw;
+  margin:1vw auto 0vw 5vw;
   color:rgb(253, 218, 218)
 }
 .bBachel img:first-child{
@@ -195,16 +203,17 @@ width: 4vw;
   margin: 0vw 0vw 0vw 13vw;
 }
 .bschool{
-  margin-top:3vw;
+  margin-top:0vw;
+  margin-left: 3vw;
 
 }
 .bschoolN p{
-  font-size: 2rem;
+  font-size: 2.1vw;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin:-1rem auto auto 8vw;
+  margin:0vw auto auto 18vw;
   color:rgb(253, 218, 218);
-  width:57vw;
+  width:35vw;
 }
 .schdes{
   font-size: 20px;
@@ -215,7 +224,7 @@ width: 4vw;
 }
 
 .schdes p{
-  margin: 0vw 0vw 0vw 13vw;
+  margin: 1vw 0vw 0vw 13vw;
 }
 .bschool img:first-child{
   margin:-5vw 0vw 0vw 8vw;
@@ -244,9 +253,10 @@ width: 4vw;
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
 
   }
+ 
   .container2{
     margin-left: 43vw;
   }
@@ -291,9 +301,10 @@ width: 4vw;
     margin-top: 1vw;
     font-size:19px;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 12vw;
+    margin-left: 25vw;
     text-align: center;
   }
+ 
   #about img:first-child{
     display:inline-block;
   max-width:350px;
@@ -312,13 +323,13 @@ width: 4vw;
 
     #education{
       display: flex;
-      height: 100vh;
+      height: 100%;
       width: 100vw;
       color: white;
       justify-content: center;
     }
     .bimg{
-      margin:-6vw 0vw 0vw 0vw;
+      margin:0vw 0vw 0vw 0vw;
     }
     .bimg img{
       display:inline-block;
@@ -333,7 +344,7 @@ width: 4vw;
         flex-direction: column;
         justify-content: center;
         width:100vw;
-        margin-top: 27vw;
+        margin-top: 51vw;
     }
     .bEducation{
           display: flex;
@@ -395,7 +406,7 @@ width: 4vw;
       font-size: 2.5vw;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      margin:auto auto 0vw 0vw;
+      margin:3vw auto 0vw 0vw;
       color:rgb(253, 218, 218)
     }
     
@@ -448,7 +459,7 @@ width: 4vw;
     margin-top: 1vw;
     font-size:16px;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 12vw;
+    margin-left: 25vw;
     text-align: center;
   }
   .title p{
@@ -502,7 +513,7 @@ margin-top: 0vw;
   margin-top: 1vw;
   font-size:14px;
   font-family: 'Montserrat', sans-serif;
-  margin-left: 12vw;
+  margin-left: 25vw;
   text-align: center;
 }
 .title p{
