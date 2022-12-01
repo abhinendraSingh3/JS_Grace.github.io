@@ -242,10 +242,10 @@ width: 4vw;
   display: flex;
   flex-direction: column ;
   margin-left: -3vw;
-  margin-top: 20vw;
+  margin-top: 11vw;
 }
 .experience1{
-  margin-top: 18vw;
+  margin-top: 7vw;
   height:auto;
   margin-left: 19vw;
 }
@@ -263,14 +263,14 @@ width: 4vw;
   font-size: 2vw;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin:auto auto 0vw -3vw;
+  margin:auto auto 0vw -5vw;
   color:rgb(253, 218, 218);
   width:57vw;
 }
 .top-2 h3{
   margin-bottom: 0vw;
   color: white;
-  margin-left: 0vw;
+  margin-left: -2vw;
   margin-top: 1vw;
   font-size:3vw;
   font-family: 'Montserrat', sans-serif;
@@ -284,7 +284,7 @@ width: 4vw;
   font-size:1.5vw;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  width:51vw
+  width:47vw
 }
 .top-1 h1{
   font-size: 5vw;
@@ -479,6 +479,69 @@ width: 4vw;
     
     .schdes p{
       margin: 2vw 0vw 0vw 0vw;
+    }
+    #experience{
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+    }
+    .top-2{
+      
+    }
+    .top{
+      display: flex;
+      flex-direction: column ;
+      margin-left: -3vw;
+      margin-top: 11vw;
+    }
+    .experience1{
+      margin-top: 7vw;
+      height:auto;
+      margin-left: 19vw;
+    }
+    #experience img:first-child{
+      display:inline-block;
+      max-width:426px;
+      max-height:25vw;
+      width: auto;
+      height: auto;
+      margin-left: -9vw;
+      margin-right: 4vw;
+      margin-top: 2vw;
+    }
+    .top-2 h4{
+      font-size: 2vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:auto auto 0vw -5vw;
+      color:rgb(253, 218, 218);
+      width:57vw;
+    }
+    .top-2 h3{
+      margin-bottom: 0vw;
+      color: white;
+      margin-left: -2vw;
+      margin-top: 1vw;
+      font-size:3vw;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      width:51vw
+    }
+    .top-2 p{
+      margin-bottom: 0vw;
+      color: white;
+      margin-top: 1vw;
+      font-size:1.5vw;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      width:47vw
+    }
+    .top-1 h1{
+      font-size: 5vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:auto auto 0vw -4vw;
+      color:rgb(253, 218, 218)
     }
 
 }
