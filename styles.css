@@ -484,25 +484,29 @@ width: 4vw;
       display: flex;
       height: 100vh;
       width: 100vw;
+      flex-direction: column;
     }
     .top-2{
-      
+      margin: 5vw 0vw 0vw 26vw;
+
     }
     .top{
       display: flex;
       flex-direction: column ;
-      margin-left: -3vw;
-      margin-top: 11vw;
+      margin-left: 0vw;
+      margin-top: 2vw;
+      justify-content: center;
     }
     .experience1{
       margin-top: 7vw;
       height:auto;
-      margin-left: 19vw;
+      display: flex;
+      justify-content: center;
     }
     #experience img:first-child{
       display:inline-block;
-      max-width:426px;
-      max-height:25vw;
+      max-width:358px;
+      max-height:40vw;
       width: auto;
       height: auto;
       margin-left: -9vw;
@@ -510,19 +514,19 @@ width: 4vw;
       margin-top: 2vw;
     }
     .top-2 h4{
-      font-size: 2vw;
+      font-size: 3vw;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      margin:auto auto 0vw -5vw;
+      margin:1vw auto 0vw -5vw;
       color:rgb(253, 218, 218);
-      width:57vw;
+      width:59vw;
     }
     .top-2 h3{
       margin-bottom: 0vw;
       color: white;
       margin-left: -2vw;
       margin-top: 1vw;
-      font-size:3vw;
+      font-size:5vw;
       font-family: 'Montserrat', sans-serif;
       text-align: center;
       width:51vw
@@ -530,8 +534,8 @@ width: 4vw;
     .top-2 p{
       margin-bottom: 0vw;
       color: white;
-      margin-top: 1vw;
-      font-size:1.5vw;
+      margin-top: 2vw;
+      font-size:3vw;
       font-family: 'Montserrat', sans-serif;
       text-align: center;
       width:47vw
