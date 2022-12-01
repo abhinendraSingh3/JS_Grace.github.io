@@ -541,11 +541,11 @@ width: 4vw;
       width:47vw
     }
     .top-1 h1{
-      font-size: 5vw;
+      font-size: 8vw;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      margin:auto auto 0vw -4vw;
-      color:rgb(253, 218, 218)
+      margin:auto auto 0vw 0vw;
+      color:white
     }
 
 }
@@ -697,6 +697,73 @@ width: 4vw;
     
     .schdes p{
       margin: -1vw 0vw 0vw 0vw;
+    }
+    #experience{
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      flex-direction: column;
+    }
+    .top-2{
+      margin: 5vw 0vw 0vw 26vw;
+
+    }
+    .top{
+      display: flex;
+      flex-direction: column ;
+      margin-left: 0vw;
+      margin-top: 2vw;
+      justify-content: center;
+    }
+    .experience1{
+      margin-top: 7vw;
+      height:auto;
+      display: flex;
+      justify-content: center;
+    }
+    #experience img:first-child{
+      display:inline-block;
+      max-width:358px;
+      max-height:40vw;
+      width: auto;
+      height: auto;
+      margin-left: -9vw;
+      margin-right: 4vw;
+      margin-top: 2vw;
+    }
+    .top-2 h4{
+      font-size: 3vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:1vw auto 0vw -5vw;
+      color:rgb(253, 218, 218);
+      width:59vw;
+    }
+    .top-2 h3{
+      margin-bottom: 0vw;
+      color: white;
+      margin-left: -2vw;
+      margin-top: 1vw;
+      font-size:5vw;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      width:51vw
+    }
+    .top-2 p{
+      margin-bottom: 0vw;
+      color: white;
+      margin-top: 2vw;
+      font-size:3vw;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      width:47vw
+    }
+    .top-1 h1{
+      font-size: 8vw;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      margin:auto auto 0vw 0vw;
+      color:white
     }
 
 }
