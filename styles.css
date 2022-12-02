@@ -293,8 +293,25 @@ width: 4vw;
   margin:auto auto 0vw -4vw;
   color:rgb(253, 218, 218)
 }
+#skills{
+  display: grid;
+}
+.headie{
+  color: white;
+  font-size: 4vw;
+  font-family: 'Montserrat', sans-serif;
+  margin:0vw 0vw 0vw 0vw ;
+}
+.skillContainer{
+  display: grid;
+}
 
+.C{
+  color: white;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
 
+}
 
 
 
