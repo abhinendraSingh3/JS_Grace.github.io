@@ -337,7 +337,7 @@ width: 4vw;
   color: white;
   font-size: 2vw;
   font-family: 'Montserrat', sans-serif;
-zd3`1
+
 }
 .skillContainer6{
   color: white;
@@ -349,7 +349,7 @@ zd3`1
   height: 2vw;
   width: 2vw;
 }
-.skillContainer2:first-child{
+.skillContainer2:first-child img{
   height: 2vw;
   width: 2vw;
 }
