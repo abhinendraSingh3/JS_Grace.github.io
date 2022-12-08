@@ -302,17 +302,73 @@ width: 4vw;
   font-family: 'Montserrat', sans-serif;
   margin:0vw 0vw 0vw 0vw ;
 }
-.skillContainer{
+.containers{
   display: grid;
+  grid-template-columns: 2;
+  gap: 10px;
+  height: calc(100vh - 10px);
 }
 
-.C{
+.skillContainer1{
   color: white;
   font-size: 2vw;
   font-family: 'Montserrat', sans-serif;
 
 }
+.skillContainer2{
+  color: white;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
 
+}
+.skillContainer3{
+  color: white;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.skillContainer4{
+  color: white;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.skillContainer5{
+  color: white;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+zd3`1
+}
+.skillContainer6{
+  color: white;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.skillContainer1:first-child img{
+  height: 2vw;
+  width: 2vw;
+}
+.skillContainer2:first-child{
+  height: 2vw;
+  width: 2vw;
+}
+.skillContainer3:first-child img{
+  height: 2vw;
+  width: 2vw;
+}
+.skillContainer4:first-child img{
+  height: 2vw;
+  width: 2vw;
+}
+.skillContainer5:first-child img{
+  height: 2vw;
+  width: 2vw;
+}
+.skillContainer6:first-child img{
+  height: 2vw;
+  width: 2vw;
+}
 
 
 
@@ -499,7 +555,7 @@ width: 4vw;
     }
     #experience{
       display: flex;
-      height: 100vh;
+      height: 118vh;
       width: 100vw;
       flex-direction: column;
     }
