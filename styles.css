@@ -302,7 +302,7 @@ width: 4vw;
   font-family: 'Montserrat', sans-serif;
   margin:0vw 0vw 0vw 0vw ;
 }
-.containers{
+/* .containers{
   display: grid;
   grid-template-columns: 2;
   gap: 10px;
@@ -368,7 +368,7 @@ width: 4vw;
 .skillContainer6:first-child img{
   height: 2vw;
   width: 2vw;
-}
+} */
 
 
 
